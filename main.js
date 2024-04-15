@@ -29,10 +29,10 @@ n("+:", "-:", "*:", "/:", "**:", "%:");
 
 
 // Homework 3
-function maxName(name1, name2, name3) {
-  let names = [name1, name2, name3];
-  let longestName = names.reduce((prev, current) => (current.length > prev.length) ? current : prev, '');
+function maxName(name1, name2, name3, name4) {
+  let names = [name1, name2, name3, name4];
+  let longestName = names.reduce((avvalgi, hozirgi) => (hozirgi.length > avvalgi.length) ? hozirgi : avvalgi, '');
   return longestName;
 }
 
-console.log(maxName('Hachi', 'Maestro', 'Bit',));
+console.log(maxName('Maestro', 'Scorpion', 'Bit', 'Hachi'));
